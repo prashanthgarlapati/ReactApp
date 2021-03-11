@@ -1,0 +1,32 @@
+table {
+    margin-left: 1rem;
+    border: 1px solid;
+    width: 80%;
+}
+
+tr {
+    padding: 1rem;
+    border-bottom: 1px lightslategray;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgrey;
+    border: 1px lightgrey;
+}
+
+tr :hover {
+    cursor: pointer;
+}
+
+td {
+    padding: 1rem;
+}
+
+.edit-img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+thead {
+    font-weight: bold;
+}

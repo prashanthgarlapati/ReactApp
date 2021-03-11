@@ -1,0 +1,11 @@
+.navbar {
+    border: 1px solid;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    li {
+        padding: 10px
+    }
+}
